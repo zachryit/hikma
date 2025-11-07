@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Sample School</title>
+
+    <!-- Favicon Configuration for All Devices -->
+    <!-- Standard favicon (all browsers) -->
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="./assets/images/logo.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="./assets/images/logo.png"
+      type="image/png"
+      sizes="32x32"
+    />
+
+    <!-- Apple Touch Icon (iOS devices) -->
+    <link rel="apple-touch-icon" href="./assets/images/logo.png" />
+
+    <!-- Android/Chrome -->
+    <link rel="icon" sizes="192x192" href="./assets/images/logo.png" />
+    <link rel="icon" sizes="512x512" href="./assets/images/logo.png" />
+
+    <!-- Safari Pinned Tab -->
+    <link rel="mask-icon" href="./assets/images/logo.png" color="#2c3e50" />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="./assets/images/logo.png" />
+    <meta name="msapplication-TileColor" content="#2c3e50" />
+
+    <!-- Cache Buster (change v=1 when updating favicon) -->
+    <meta name="theme-color" content="#2c3e50" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <!-- Main JavaScript -->
+    <script src="./assets/js/main.js" defer></script>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand-logo me-auto" href="#">
+          <img
+            src="./assets/images/logo.png"
+            class="me-1"
+            alt="School Logo"
+            width="60"
+          />
+          <span>Sample School</span>
+        </a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li>
+                  <a class="dropdown-item" href="./pages/about-SSA.html"
+                    >About SSA</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./pages/about-bod.html"
+                    >Board of Directors</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./pages/about-management.html"
+                    >Management Team</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./pages/about-teaching-staff.html"
+                    >Teaching Staff</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./pages/events.html">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/academics.html">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contact.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <div class="hero-slider">
+      <!-- Slide 1 -->
+      <div
+        class="slide active"
+        style="background-image: url('./assets/images/hero1.jpg')"
+      >
+        <div class="slide-content">
+          <h1>Excellence in Education</h1>
+          <p>
+            Discover our innovative learning environment that nurtures
+            creativity, critical thinking, and leadership skills for the 21st
+            century.
+          </p>
+          <a href="./pages/academics.html" class="btn btn-hero"
+            >Explore Programs</a
+          >
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div
+        class="slide"
+        style="background-image: url('./assets/images/hero2.jpg')"
+      >
+        <div class="slide-content">
+          <h1>Building Future Leaders</h1>
+          <p>
+            Our holistic approach to education prepares students to excel in
+            their academic pursuits and become responsible global citizens.
+          </p>
+          <a href="./pages/about-SSA.html" class="btn btn-hero"
+            >Learn About Us</a
+          >
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div
+        class="slide"
+        style="background-image: url('./assets/images/hero3.jpg')"
+      >
+        <div class="slide-content">
+          <h1>State-of-the-Art Facilities</h1>
+          <p>
+            Experience learning in our modern classrooms, science labs, and
+            sports facilities designed to inspire and motivate.
+          </p>
+          <a href="./pages/gallery.html" class="btn btn-hero">View Gallery</a>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <div class="slider-dot active" data-slide="0"></div>
+        <div class="slider-dot" data-slide="1"></div>
+        <div class="slider-dot" data-slide="2"></div>
+      </div>
+    </div>
+
+    <!-- Founder Message Section -->
+    <section class="section founder-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2 class="section-title text-white">
+              Welcome Message from the Founder
+            </h2>
+            <blockquote class="founder-quote">
+              "The task ahead is great indeed and heavy is the responsibility;
+              and yet it is a noble and glorious challenge – a challenge which
+              calls for the chance to dream, the courage to believe, the courage
+              to draw, the courage to do, the courage to envision, the courage
+              to work, the courage to achieve – to achieve the highest in
+              excellencies. Dare we ask for more in life?"<br />
+              <small>- Dr. Kwame Nkrumah</small>
+            </blockquote>
+            <p>
+              As parents and caregivers, we are confronted with many
+              responsibilities. But, towering above them all is the desire to
+              shape our children's future in the most positive and
+              self-sustaining way, by providing them with quality education.
+            </p>
+            <p>
+              Education is a trusted conduit to move wealth from one generation
+              to the next. Education can also be the great equalizer which
+              uplifts generations of poverty to new heights of distinction and
+              success.
+            </p>
+            <p>
+              At Sample School, the prospect of quality education is
+              not lost on us. In fact, it remains our conviction to create a
+              conducive learning environment which will spearhead deep, critical
+              thought in all our students and encourage them to exert maximum
+              effort in all their present and future endeavours.
+            </p>
+            <p class="founder-signature">Paul Osei-Amru</p>
+            <p>Founder and President<br />Sample School</p>
+          </div>
+          <div class="col-lg-5 ps-lg-5">
+            <div
+              class="founder-image-container"
+              style="position: relative; height: 100%; min-height: 400px"
+            >
+              <img
+                src="./assets/images/founder.jpg"
+                alt="Paul Osei-Amru, Founder"
+                class="img-fluid"
+                style="
+                  position: absolute;
+                  right: 0;
+                  max-height: 100%;
+                  width: auto;
+                  max-width: 100%;
+                  border: 8px solid rgba(255, 255, 255, 0.2);
+                  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="section section-light">
+      <div class="container-fluid">
+        <h2 class="section-title text-center">Our Vision</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="vision-card">
+              <div class="vision-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <h3>World-Class Education</h3>
+              <p>
+                Sample School is dedicated to delivering world-class
+                education to all students through innovative teaching
+                methodologies.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="vision-card">
+              <div class="vision-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3>Critical Thinking</h3>
+              <p>
+                We nurture minds to appreciate diverse viewpoints and develop
+                critical analysis skills with a holistic approach to problem
+                solving.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="vision-card">
+              <div class="vision-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <h3>Academic Excellence</h3>
+              <p>
+                We inspire our students to strive for academic excellence and be
+                unrelenting in their pursuit of greatness.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="vision-card">
+              <div class="vision-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3>Global Competence</h3>
+              <p>
+                We integrate Ghanaian academic context with best UK teaching
+                approaches to ensure students develop a competitive edge.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-section">
+      <div class="container">
+        <h2 class="section-title text-center">Our Mission</h2>
+        <div class="mission-statement">
+          <p>
+            We are and will remain an Academy where the learner is nurtured,
+            inspired and challenged to meet the challenges of today and
+            tomorrow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title text-center">Our Gallery</h2>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img src="./assets/images/img1.jpg" alt="Classroom" />
+            <div class="overlay">
+              <h3>Modern Classrooms</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./assets/images/img2.jpg" alt="Students" />
+            <div class="overlay">
+              <h3>Student Activities</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./assets/images/img3.jpg" alt="Science Lab" />
+            <div class="overlay">
+              <h3>Science Laboratories</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./assets/images/sports.jpg" alt="facilities" />
+            <div class="overlay">
+              <h3>Facilities</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./assets/images/events.jpeg"
+              alt="events and entertainment"
+            />
+            <div class="overlay">
+              <h3>Events and Entertainment</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./assets/images/arts.jpg" alt="arts" />
+            <div class="overlay">
+              <h3>Arts</h3>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-show-more">
+            <a
+              href="./pages/gallery.html"
+              class="text-decoration-none text-white"
+              >Show More</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section class="section events-section">
+      <div class="container">
+        <h2 class="section-title text-center">Upcoming Events</h2>
+        <div class="row">
+          <!-- Event 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="event-card">
+              <div class="event-date">
+                <span class="event-day">15</span>
+                <span class="event-month">JUN</span>
+              </div>
+              <img
+                src="./assets/images/robotics-club.jpg"
+                alt="Annual Science Fair"
+                class="event-image"
+              />
+              <div class="event-content">
+                <h3 class="event-title">Annual Science Fair</h3>
+                <div class="event-meta">
+                  <span><i class="fas fa-clock"></i> 9:00 AM - 3:00 PM</span>
+                  <span
+                    ><i class="fas fa-map-marker-alt"></i> School
+                    Auditorium</span
+                  >
+                </div>
+                <p class="event-description">
+                  Join us for our annual showcase of student science projects
+                  and innovations.
+                </p>
+                <a href="./pages/events.html" class="btn btn-event"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Event 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="event-card">
+              <div class="event-date">
+                <span class="event-day">22</span>
+                <span class="event-month">JUN</span>
+              </div>
+              <img
+                src="./assets/images/graduation-2024.jpg"
+                alt="Graduation Ceremony"
+                class="event-image"
+              />
+              <div class="event-content">
+                <h3 class="event-title">Graduation Ceremony</h3>
+                <div class="event-meta">
+                  <span><i class="fas fa-clock"></i> 10:00 AM - 12:00 PM</span>
+                  <span
+                    ><i class="fas fa-map-marker-alt"></i> Main Football
+                    Field</span
+                  >
+                </div>
+                <p class="event-description">
+                  Celebrating the achievements of our graduating class of 2024.
+                </p>
+                <a
+                  href="./pages/post/graduation-2024.html"
+                  class="btn btn-event"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Event 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="event-card">
+              <div class="event-date">
+                <span class="event-day">05</span>
+                <span class="event-month">JUL</span>
+              </div>
+              <img
+                src="./assets/images/img4.jpg"
+                alt="Parents-Teachers Conference"
+                class="event-image"
+              />
+              <div class="event-content">
+                <h3 class="event-title">Parents-Teachers Conference</h3>
+                <div class="event-meta">
+                  <span><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</span>
+                  <span
+                    ><i class="fas fa-map-marker-alt"></i> School
+                    Classrooms</span
+                  >
+                </div>
+                <p class="event-description">
+                  Opportunity for parents to meet with teachers and discuss
+                  student progress.
+                </p>
+                <a href="./pages/events.html" class="btn btn-event"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="./pages/events.html" class="btn btn-view-all"
+            >View All Events <i class="fas fa-arrow-right ms-2"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section section-light">
+      <div class="container">
+        <h2 class="section-title text-center">Recent Blog Posts</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="blog-card">
+              <img src="./assets/images/academics-hero.jpeg" alt="Blog Post" />
+              <div class="blog-card-body">
+                <div class="blog-card-date">2024 | SSA</div>
+                <h3 class="blog-card-title">OUR 2024 GRADUATION CEREMONY</h3>
+                <p class="blog-card-excerpt">
+                  Celebrating the achievements of our graduating class of 2024.
+                  A day filled with joy, pride, and memorable moments as we send
+                  our students to their next chapter.
+                </p>
+                <a href="./pages/blog.html" class="blog-card-link"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="blog-card">
+              <img
+                src="./assets/images/traditional-day-2022.jpg"
+                alt="Blog Post"
+              />
+              <div class="blog-card-body">
+                <div class="blog-card-date">2022 | SSA</div>
+                <h3 class="blog-card-title text-uppercase">
+                  Sample School Traditional Day 2022
+                </h3>
+                <p class="blog-card-excerpt">
+                  Reliving our colorful Traditional Day celebration where
+                  students showcased the rich cultural heritage of Ghana through
+                  dance, fashion, and cuisine.
+                </p>
+                <a href="./pages/blog.html" class="blog-card-link"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="blog-card">
+              <img src="./assets/images/read2achieve2.jpg" alt="Blog Post" />
+              <div class="blog-card-body">
+                <div class="blog-card-date">2021 | SSA</div>
+                <h3 class="blog-card-title text-uppercase">
+                  Sample School Initiates Read2Achieve
+                </h3>
+                <p class="blog-card-excerpt">
+                  Launching our innovative reading program designed to cultivate
+                  a lifelong love for reading and improve literacy across all
+                  grade levels.
+                </p>
+                <a href="./pages/blog.html" class="blog-card-link"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section class="calendar-section">
+      <div class="container">
+        <h2 class="section-title text-center">Academic Resources</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="calendar-card">
+              <div class="calendar-icon">
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+              <h3>Academic Calendar</h3>
+              <p>
+                Download our full academic calendar to stay updated with
+                important dates, holidays, and school events throughout the
+                year.
+              </p>
+              <a
+                href="https://www.SSA.edu.gh/files/uploads/upload-1724487474742-685778046.pdf"
+                target="_blank"
+                class="btn btn-download"
+                >Download Calendar</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="calendar-card">
+              <div class="calendar-icon">
+                <i class="fas fa-envelope-open-text"></i>
+              </div>
+              <h3>Welcome Letter</h3>
+              <p>
+                Read the founder's welcome letter to understand our educational
+                philosophy and what makes Sample School unique.
+              </p>
+              <a
+                href="https://www.SSA.edu.gh/files/uploads/upload-1704576440966-857818718.pdf"
+                target="_blank"
+                class="btn btn-download"
+                >Download Letter</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-divider">
+          <h2>Have Questions?</h2>
+        </div>
+
+        <div class="about-card enquiries-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+              <div class="card-body p-4 p-lg-5">
+                <div class="school-badge mb-4">
+                  <i class="fas fa-question-circle"></i>
+                  <span>Get in Touch</span>
+                </div>
+                <h3 class="mb-4">Send Us Your Enquiry</h3>
+                <form id="enquiryForm" class="enquiry-form">
+                  <div class="mb-3">
+                    <label for="enquiryName" class="form-label"
+                      >Your Name *</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="enquiryName"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="enquiryEmail" class="form-label"
+                      >Email Address *</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="enquiryEmail"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="enquiryPhone" class="form-label"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="enquiryPhone"
+                      name="phone"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="enquirySubject" class="form-label"
+                      >Subject *</label
+                    >
+                    <select
+                      class="form-select"
+                      id="enquirySubject"
+                      name="subject"
+                      required
+                    >
+                      <option value="" selected disabled>
+                        Select a subject
+                      </option>
+                      <option value="Admissions">Admissions</option>
+                      <option value="Academics">Academics</option>
+                      <option value="Boarding">Boarding</option>
+                      <option value="Events">Events</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="enquiryMessage" class="form-label"
+                      >Your Message *</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="enquiryMessage"
+                      name="message"
+                      rows="4"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Submit Enquiry <i class="fas fa-paper-plane ms-2"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <img
+                src="./assets/images/enquiries.jpg"
+                alt="Contact Us"
+                class="img-fluid rounded-end"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body text-center p-5">
+            <i
+              class="fas fa-check-circle text-success mb-4"
+              style="font-size: 3rem"
+            ></i>
+            <h3 class="mb-3">Message Sent Successfully!</h3>
+            <p class="mb-4">
+              Thank you for contacting Sample School. We'll get back
+              to you soon.
+            </p>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Error Modal -->
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body text-center p-5">
+            <i
+              class="fas fa-exclamation-circle text-danger mb-4"
+              style="font-size: 3rem"
+            ></i>
+            <h3 class="mb-3">Something Went Wrong</h3>
+            <p id="errorMessage" class="mb-4">Please try again later.</p>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Sample School®</h3>
+            <p>
+              We inspire our students to strive for academic excellence and be
+              unrelenting in their pursuit of greatness.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://web.facebook.com/people/sample-school/100057217218964/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a
+                href="https://www.instagram.com/sampleschool/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Links</h3>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="./pages/about-SSA.html">About Us</a></li>
+              <li><a href="./pages/academics.html">Academics</a></li>
+              <li><a href="./pages/gallery.html">Gallery</a></li>
+              <li><a href="./pages/blog.html">Blog</a></li>
+              <li><a href="./pages/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">About Us</h3>
+            <p>
+              SSA integrates theoretical and practical teaching methodologies in
+              the Ghanaian academic context with best teaching approaches from
+              the United Kingdom to ensure that our students develop a
+              competitive edge.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer-title">Contacts</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:admin@SSA.edu.gh">admin@SSA.edu.gh</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233506753235">+233 50 675 3235</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233543206025">+233 54 320 6025</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <a
+                  href="https://maps.app.goo.gl/7eamoqUVCuYpodAE6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  1 Sample School Lane, Accra
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Sample School. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

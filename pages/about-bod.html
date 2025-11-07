@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Sample School</title>
+
+    <!-- Favicon Configuration for All Devices -->
+    <!-- Standard favicon (all browsers) -->
+    <link rel="icon" href="../assets/images/logo.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="32x32"
+    />
+
+    <!-- Apple Touch Icon (iOS devices) -->
+    <link rel="apple-touch-icon" href="../assets/images/logo.png" />
+
+    <!-- Android/Chrome -->
+    <link rel="icon" sizes="192x192" href="../assets/images/logo.png" />
+    <link rel="icon" sizes="512x512" href="../assets/images/logo.png" />
+
+    <!-- Safari Pinned Tab -->
+    <link rel="mask-icon" href="../assets/images/logo.png" color="#2c3e50" />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="../assets/images/logo.png" />
+    <meta name="msapplication-TileColor" content="#2c3e50" />
+
+    <!-- Cache Buster (change v=1 when updating favicon) -->
+    <meta name="theme-color" content="#2c3e50" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <!-- About CSS -->
+    <link rel="stylesheet" href="../assets/styles/about.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <!-- Main JS -->
+    <script src="../assets/js/main.js" defer></script>
+    <!-- About JS -->
+    <script src="../assets/js/about.js" defer></script>
+    <!-- Bootstrap JS Bundle with Popper -->
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand-logo me-auto" href="#">
+          <img
+            src="../assets/images/logo.png"
+            class="me-1"
+            alt="School Logo"
+            width="60"
+          />
+          <span>Sample School</span>
+        </a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li>
+                  <a class="dropdown-item" href="./about-SSA.html">About SSA</a>
+                </li>
+                <li>
+                  <a class="dropdown-item active" href="#"
+                    >Board of Directors</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-management.html"
+                    >Management Team</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-teaching-staff.html"
+                    >Teaching Staff</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./events.html">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./academics.html">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Board of Directors Section -->
+    <section class="directors-section">
+      <div class="container-fluid">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">About Us</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Board of Directors
+            </li>
+          </ol>
+        </nav>
+
+        <div class="section-header text-center mb-5">
+          <h1 class="section-main-title">Board of <span>Directors</span></h1>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Our distinguished board members guiding Sample School
+          </p>
+        </div>
+
+        <!-- Board Members Grid -->
+        <div class="directors-grid">
+          <!-- Member 1 - Paul Osei-Antwi -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal1"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/founder.jpg"
+                alt="Mr. Paul Osei-Antwi"
+              />
+              <div class="director-badge">Chairman</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Mr. Paul Osei-Antwi</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+
+          <!-- Member 2 - Dr. Kobby Mensah -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal2"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/directors/kobby-mensah.jpg"
+                alt="Dr. Kobby Mensah"
+              />
+              <div class="director-badge">Marketing</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Dr. Kobby Mensah</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+
+          <!-- Member 3 - Dr. Thelma Ohene-Adjei -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal3"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/directors/thelma-ohene.jpg"
+                alt="Dr. Thelma Ohene-Adjei"
+              />
+              <div class="director-badge">SSArmacy</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Dr. Thelma Ohene-Adjei</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+
+          <!-- Member 4 - Dr. Adam Tetteh Larbie -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal4"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/directors/adam-tetteh.jpg"
+                alt="Dr. Adam Tetteh Larbie"
+              />
+              <div class="director-badge">Engineering</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Dr. Adam Tetteh Larbie</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+
+          <!-- Member 5 - Lawyer Amma Frimpomaa Dwumah -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal5"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/directors/amma-frimpomaa.jpg"
+                alt="Lawyer Amma Frimpomaa Dwumah"
+              />
+              <div class="director-badge">Legal/HR</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Lawyer Amma Frimpomaa Dwumah</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+
+          <!-- Member 6 - Madam Grace-Gloria Obuobie -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal6"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/directors/grace-gloria.jpg"
+                alt="Madam Grace-Gloria Obuobie"
+              />
+              <div class="director-badge">Educationist</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Madam Grace-Gloria Obuobie</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+
+          <!-- Member 7 - Ms. Irene Chu -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal7"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/directors/irene-chu.jpg"
+                alt="Ms. Irene Chu"
+              />
+              <div class="director-badge">Health</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Ms. Irene Chu</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+
+          <!-- Member 8 - Madam Melina Gilbert-Genereux -->
+          <div
+            class="director-card"
+            data-bs-toggle="modal"
+            data-bs-target="#directorModal8"
+          >
+            <div class="director-image">
+              <img
+                src="../assets/images/directors/melina-gilbert.jpg"
+                alt="Madam Melina Gilbert-Genereux"
+              />
+              <div class="director-badge">French</div>
+            </div>
+            <div class="director-info">
+              <h3 class="director-name">Madam Melina Gilbert-Genereux</h3>
+              <div class="director-cta">View Profile</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for Mr. Paul Osei-Antwi -->
+      <div
+        class="modal fade"
+        id="directorModal1"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/paul-osei-antwi.jpg"
+                      alt="Dr. Kobby Mensah"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Mr. Paul Osei-Antwi</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Dr. Kobby Mensah is a senior Lecturer at the Department
+                        of Marketing and Entrepreneurship, University of Ghana
+                        Business School (UGBS). He teaches Tourism Marketing,
+                        Political Marketing, Relationship Marketing, Financial
+                        Services Marketing and many other related areas.
+                      </p>
+                      <p>
+                        Dr. Mensah has served as the Coordinator for the
+                        Marketing and Communications Unit of UGBS for the past
+                        four years with the responsibility of managing and
+                        maintaining a strong UGBS brand.
+                      </p>
+                      <p>
+                        As a board member, Dr. Mensah will support the
+                        technological and marketing drive at SSA. Dr. Mensah
+                        will also support in the structuring and teaching
+                        methodology at SSA.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>PhD in Journalism - University of Sheffield, UK</li>
+                        <li>
+                          MSc in International Marketing - Sheffield University,
+                          UK
+                        </li>
+                        <li>Chartered Marketer (CMgr MCMI)</li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>Marketing strategy development</li>
+                        <li>Technological innovation oversight</li>
+                        <li>Teaching methodology consultation</li>
+                        <li>Brand positioning guidance</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Dr. Kobby Mensah -->
+      <div
+        class="modal fade"
+        id="directorModal2"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/kobby-mensah.jpg"
+                      alt="Dr. Kobby Mensah"
+                    />
+                    <div class="modal-badge">Marketing & Academia</div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Dr. Kobby Mensah</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Dr. Kobby Mensah is a senior Lecturer at the Department
+                        of Marketing and Entrepreneurship, University of Ghana
+                        Business School (UGBS). He teaches Tourism Marketing,
+                        Political Marketing, Relationship Marketing, Financial
+                        Services Marketing and many other related areas.
+                      </p>
+                      <p>
+                        Dr. Mensah has served as the Coordinator for the
+                        Marketing and Communications Unit of UGBS for the past
+                        four years with the responsibility of managing and
+                        maintaining a strong UGBS brand.
+                      </p>
+                      <p>
+                        As a board member, Dr. Mensah will support the
+                        technological and marketing drive at SSA. Dr. Mensah
+                        will also support in the structuring and teaching
+                        methodology at SSA.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>PhD in Journalism - University of Sheffield, UK</li>
+                        <li>
+                          MSc in International Marketing - Sheffield University,
+                          UK
+                        </li>
+                        <li>Chartered Marketer (CMgr MCMI)</li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>Marketing strategy development</li>
+                        <li>Technological innovation oversight</li>
+                        <li>Teaching methodology consultation</li>
+                        <li>Brand positioning guidance</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Dr. Thelma Ohene-Adjei -->
+      <div
+        class="modal fade"
+        id="directorModal3"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/thelma-ohene.jpg"
+                      alt="Dr. Thelma Ohene-Adjei"
+                    />
+                    <div class="modal-badge">SSArmacology Expert</div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Dr. Thelma Ohene-Adjei</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Dr. Thelma Ama Opoku-Agyeman is a lecturer at the
+                        Department of SSArmacy Practice and Clinical SSArmacy at
+                        the University of Ghana. Dr. Opoku-Agyeman earned her
+                        Doctorate degree in SSArmacology from the University of
+                        Cambridge, UK in 2015.
+                      </p>
+                      <p>
+                        Mrs. Opoku-Agyeman's passion for higher education has
+                        prompted her to take on many challenging roles in
+                        academics, including not limited to: Teaching Assistant,
+                        Clinical SSArmacist, Demonstrator in Psychology,
+                        Biochemistry and SSArmacology.
+                      </p>
+                      <p>
+                        In terms of advocacy and community development, Dr.
+                        Opoku-Agyeman remains a passionate proponent of women's
+                        rights and is a key contributor to the Peperdem
+                        Ministries, a pro-women's movement. Her intellect,
+                        advocacy work and passion for education will support SSA
+                        to empower our students to approach social issues with a
+                        progressive mindset.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>
+                          PhD in SSArmacology - University of Cambridge, UK
+                        </li>
+                        <li>MSc in Clinical SSArmacy - University of Ghana</li>
+                        <li>
+                          Bachelor of SSArmacy - Kwame Nkrumah University of
+                          Science and Technology
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>Student empowerment and mentorship</li>
+                        <li>Progressive education initiatives</li>
+                        <li>Women's advocacy programs</li>
+                        <li>Community development guidance</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Dr. Adam Tetteh Larbie -->
+      <div
+        class="modal fade"
+        id="directorModal4"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/adam-tetteh.jpg"
+                      alt="Dr. Adam Tetteh Larbie"
+                    />
+                    <div class="modal-badge">Engineering Director</div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Dr. Adam Tetteh Larbie</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Dr. Adam Tetteh Larbie is an Engineer with a PhD in
+                        Mechanical Engineering from the Kwame Nkrumah University
+                        of Science and Technology. He is actively associated
+                        with the Institution of Engineers and the Chartered
+                        Institute of Logistics and Transport.
+                      </p>
+                      <p>
+                        With 25 years of experience in academia and industry,
+                        Dr. Larbie has supervised industrial attachments for
+                        students from various polytechnics and universities in
+                        Ghana. He taught final-year courses in Transportation
+                        and Automobile Engineering from 2012 to 2014.
+                      </p>
+                      <p>
+                        His extensive background in undergraduate and
+                        post-graduate research, development activities, and
+                        academic administration brings valuable technical
+                        expertise and institutional knowledge to SSA's board.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>PhD in Mechanical Engineering - KNUST, Ghana</li>
+                        <li>MSc in Engineering Systems - KNUST, Ghana</li>
+                        <li>BSc in Mechanical Engineering - KNUST, Ghana</li>
+                        <li>Member, Institution of Engineers, Ghana</li>
+                        <li>
+                          Member, Chartered Institute of Logistics and Transport
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>STEM education strategy</li>
+                        <li>Industry-academic partnerships</li>
+                        <li>Technical curriculum development</li>
+                        <li>Research program oversight</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Lawyer Amma Frimpomaa Dwumah -->
+      <div
+        class="modal fade"
+        id="directorModal5"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/amma-frimpomaa.jpg"
+                      alt="Lawyer Amma Frimpomaa Dwumah"
+                    />
+                    <div class="modal-badge">Legal & HR Director</div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Lawyer Amma Frimpomaa Dwumah</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Lawyer Amma Frimpomaa Dwumah is a distinguished legal
+                        professional and member of the Ghana Bar Association,
+                        with additional qualifications in English (University of
+                        Ghana) and a Master's degree in Human Resources from the
+                        University of Cape Coast. She currently serves as the
+                        Managing Director at SIC Savings and Loans.
+                      </p>
+                      <p>
+                        Beginning her career as an educator, Ms. Dwumah
+                        graduated from St. Louis Training College and taught
+                        English and English Literature at OLA Girls Senior High
+                        School. This unique combination of legal, HR, and
+                        educational experience gives her valuable perspective on
+                        institutional management.
+                      </p>
+                      <p>
+                        At SSA, Ms. Dwumah will ensure the academy maintains
+                        modern human resources practices while providing
+                        essential legal counsel. Her multifaceted background
+                        bridges education, law, and corporate leadership.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>
+                          Professional Law Certificate - Ghana School of Law
+                        </li>
+                        <li>MA Human Resources - University of Cape Coast</li>
+                        <li>BA English - University of Ghana</li>
+                        <li>
+                          Teacher's Certificate - St. Louis Training College
+                        </li>
+                        <li>Member, Ghana Bar Association</li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>Legal compliance oversight</li>
+                        <li>HR policy modernization</li>
+                        <li>Corporate governance guidance</li>
+                        <li>Education-law interface</li>
+                        <li>Institutional risk management</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Madam Grace-Gloria Obuobie -->
+      <div
+        class="modal fade"
+        id="directorModal6"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/grace-gloria.jpg"
+                      alt="Madam Grace-Gloria Obuobie"
+                    />
+                    <div class="modal-badge">Education Specialist</div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Madam Grace-Gloria Obuobie</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Madam Grace-Gloria Obuobie is an accomplished
+                        educationist with the Ghana Education Service, bringing
+                        extensive experience in the educational sector. Known
+                        for her flexibility and proactive approach, she
+                        consistently implements measures to ensure optimal
+                        outcomes in all assigned tasks.
+                      </p>
+                      <p>
+                        With deep understanding of workplace behavior and vast
+                        knowledge in human resource management, Ms. Obuobie
+                        excels in organizational development, time management,
+                        and effective teamwork. She holds an MBA in Human
+                        Resource Management from Methodist University College,
+                        Ghana, and a BA from the University of Cape Coast.
+                      </p>
+                      <p>
+                        At SSA, Ms. Obuobie will leverage her expertise to
+                        support the recruitment of competent teaching staff and
+                        enhance professional training programs, ensuring the
+                        academy maintains the highest educational standards.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>
+                          MBA in Human Resource Management - Methodist
+                          University College, Ghana
+                        </li>
+                        <li>BA - University of Cape Coast</li>
+                        <li>Professional Educator - Ghana Education Service</li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>Teaching staff recruitment strategy</li>
+                        <li>Professional development programs</li>
+                        <li>Educational HR policy formulation</li>
+                        <li>Workplace efficiency optimization</li>
+                        <li>Staff performance evaluation systems</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Ms. Irene Chu -->
+      <div
+        class="modal fade"
+        id="directorModal7"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/irene-chu.jpg"
+                      alt="Ms. Irene Chu"
+                    />
+                    <div class="modal-badge">Child Health Specialist</div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Ms. Irene Chu</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Ms. Irene Chu is a Nurse Counselor specializing in
+                        Chronic Disease Management for the Cree Board of Health
+                        and Social Services in Quebec, Canada. Holding a
+                        Master's Degree in Public Health (MPH) from the
+                        University of Toronto, she brings extensive expertise in
+                        pediatric healthcare and child welfare initiatives.
+                      </p>
+                      <p>
+                        Known for her dedication to child safety, Ms. Chu
+                        spearheaded a public health project that distributed
+                        over 350 All-Terrain Vehicle (ATV) helmets to children.
+                        Her research background includes work with the Montreal
+                        Neurological Institute under Dr. Andrea M. Laizner and
+                        the Lung Cancer Navigation Center at McGill University
+                        Hospital Center.
+                      </p>
+                      <p>
+                        At Sample School, Ms. Chu will champion
+                        student health and safety programs, ensuring our
+                        institution maintains the highest standards of child
+                        welfare and preventive healthcare practices.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>
+                          Master of Public Health (MPH) - University of Toronto
+                        </li>
+                        <li>Bachelor of Nursing - [University Name]</li>
+                        <li>Certified Pediatric Healthcare Provider</li>
+                        <li>Chronic Disease Management Certification</li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>Student health and safety oversight</li>
+                        <li>School health policy development</li>
+                        <li>Preventive healthcare programs</li>
+                        <li>Crisis health management</li>
+                        <li>Child welfare advocacy</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal for Madam Melina Gilbert-Genereux -->
+      <div
+        class="modal fade"
+        id="directorModal8"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <div class="modal-body">
+              <div class="row g-4">
+                <div class="col-md-5">
+                  <div class="modal-image">
+                    <img
+                      src="../assets/images/directors/melina-gilbert.jpg"
+                      alt="Ms. Irene Chu"
+                    />
+                    <div class="modal-badge">French Education Expert</div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="modal-info">
+                    <h2 class="modal-name">Madam Melina Gilbert-Genereux</h2>
+                    <div class="modal-bio">
+                      <p>
+                        Madam Melina Gilbert-Genereux is a certified
+                        French-Mathematics teacher from the University of Quebec
+                        with extensive international teaching experience. She
+                        has taught mathematics at Asimauttaq School in
+                        Kuujjuarapik and Segunda Suerte, Ecole l'Envole in
+                        Joliette, and currently teaches French as a second
+                        language to new immigrants at Ecole de francization in
+                        Quebec, Canada.
+                      </p>
+                      <p>
+                        Her global humanitarian work includes volunteering with
+                        OrSSAn Resources International (ORI) in Guatemala (2011)
+                        to improve children's living conditions, and serving on
+                        the Regional Committee of Education for the
+                        International Development of Lanaudière, Togo (2016),
+                        where she implemented sanitation improvements in Kusuntu
+                        village.
+                      </p>
+                      <p>
+                        At SSA, Madam Gilbert-Genereux will lead the development
+                        of our French curriculum and provide specialized support
+                        to both students and teachers advancing their French
+                        fluency, while bringing global educational perspectives
+                        to our programs.
+                      </p>
+                    </div>
+                    <div class="modal-education">
+                      <h4>Education & Credentials</h4>
+                      <ul>
+                        <li>
+                          French-Mathematics Teaching Certification - University
+                          of Quebec
+                        </li>
+                        <li>Certificate in Second Language Instruction</li>
+                        <li>International Development Training</li>
+                      </ul>
+                    </div>
+                    <div class="modal-responsibilities">
+                      <h4>Board Responsibilities</h4>
+                      <ul>
+                        <li>French curriculum development</li>
+                        <li>Language immersion program oversight</li>
+                        <li>International educational partnerships</li>
+                        <li>Teacher training in language instruction</li>
+                        <li>Cross-cultural education initiatives</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Sample School®</h3>
+            <p>
+              We inspire our students to strive for academic excellence and be
+              unrelenting in their pursuit of greatness.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://web.facebook.com/people/sample-school/100057217218964/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a
+                href="https://www.instagram.com/sampleschool/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Links</h3>
+            <ul class="footer-links">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="./academics.html">Academics</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">About Us</h3>
+            <p>
+              SSA integrates theoretical and practical teaching methodologies in
+              the Ghanaian academic context with best teaching approaches from
+              the United Kingdom to ensure that our students develop a
+              competitive edge.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer-title">Contacts</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:admin@SSA.edu.gh">admin@SSA.edu.gh</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233506753235">+233 50 675 3235</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233543206025">+233 54 320 6025</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <a
+                  href="https://maps.app.goo.gl/7eamoqUVCuYpodAE6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  1 Sample School Lane, Accra
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Sample School. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Sample School</title>
+
+    <!-- Favicon Configuration for All Devices -->
+    <!-- Standard favicon (all browsers) -->
+    <link rel="icon" href="../assets/images/logo.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="32x32"
+    />
+
+    <!-- Apple Touch Icon (iOS devices) -->
+    <link rel="apple-touch-icon" href="../assets/images/logo.png" />
+
+    <!-- Android/Chrome -->
+    <link rel="icon" sizes="192x192" href="../assets/images/logo.png" />
+    <link rel="icon" sizes="512x512" href="../assets/images/logo.png" />
+
+    <!-- Safari Pinned Tab -->
+    <link rel="mask-icon" href="../assets/images/logo.png" color="#2c3e50" />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="../assets/images/logo.png" />
+    <meta name="msapplication-TileColor" content="#2c3e50" />
+
+    <!-- Cache Buster (change v=1 when updating favicon) -->
+    <meta name="theme-color" content="#2c3e50" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <!-- About CSS -->
+    <link rel="stylesheet" href="../assets/styles/about.css" />
+    <!-- Main JS -->
+    <script src="../assets/js/main.js" defer></script>
+    <!-- About JS -->
+    <script src="../assets/js/about.js" defer></script>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand-logo me-auto" href="#">
+          <img
+            src="../assets/images/logo.png"
+            class="me-1"
+            alt="School Logo"
+            width="60"
+          />
+          <span>Sample School</span>
+        </a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li><a class="dropdown-item active" href="#">About SSA</a></li>
+                <li>
+                  <a class="dropdown-item" href="./about-bod.html"
+                    >Board of Directors</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-management.html"
+                    >Management Team</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-teaching-staff.html"
+                    >Teaching Staff</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./events.html">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./academics.html">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About SSA Section -->
+    <section class="about-SSA-section">
+      <div class="container">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">About Us</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              About SSA
+            </li>
+          </ol>
+        </nav>
+
+        <h1 class="section-main-title">
+          About <span>Sample School</span>
+        </h1>
+
+        <!-- School Overview Card -->
+        <div class="about-card overview-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6 order-lg-1">
+              <img
+                src="../assets/images/hero1.jpg"
+                alt="SSA Campus"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-lg-6 order-lg-2">
+              <div class="card-body p-4 p-lg-5">
+                <div class="school-badge mb-4">
+                  <i class="fas fa-school"></i>
+                  <span>Our Institution</span>
+                </div>
+                <div class="about-content">
+                  <h2 class="about-title">
+                    Welcome to Sample School
+                  </h2>
+
+                  <div class="about-intro">
+                    <p class="lead">
+                      We inspire our students to strive for academic excellence
+                      and be unrelenting in their pursuit of greatness.
+                    </p>
+                  </div>
+
+                  <div class="about-description">
+                    <p>
+                      SSA integrates theoretical and practical teaching
+                      methodologies in the Ghanaian academic context with
+                      international best practices to ensure our students
+                      develop a competitive edge.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="stats-container mt-5">
+                  <div class="stat-item">
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-label">Years of Excellence</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">Graduation Rate</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">Qualified Staff</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Schools Section -->
+        <div class="section-divider">
+          <h2>Our Schools</h2>
+        </div>
+
+        <div class="about-card school-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+              <img
+                src="../assets/images/headstart.jpg"
+                alt="Head Start Child Care"
+                class="img-fluid rounded-end"
+              />
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="card-body p-4 p-lg-5">
+                <div class="school-badge mb-4">
+                  <i class="fas fa-child"></i>
+                  <span>Early Years</span>
+                </div>
+                <h2 class="mb-4">Head Start Child Care</h2>
+                <p class="mb-4">
+                  Our aim is to harness learner independence and appreciation of
+                  personal responsibility through:
+                </p>
+
+                <ul class="feature-list mb-4">
+                  <li>
+                    <i class="fas fa-check-circle"></i> Hands-on environmental
+                    exploration
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Development of motor and
+                    self-care skills
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Stimulating tasks that
+                    stretch imagination
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Child-centered
+                    Montessori principles
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Internationally
+                    recognized early years framework
+                  </li>
+                </ul>
+
+                <blockquote class="philosophy-quote mt-4 mb-0">
+                  "Never help a child with a task at which he feels he can
+                  succeed."
+                  <cite>- Maria Montessori</cite>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Programs Section -->
+        <div class="section-divider">
+          <h2>Academic Programs</h2>
+        </div>
+
+        <div class="about-card programs-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+              <img
+                src="../assets/images/curriculum.jpg"
+                alt="Academic Programs"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="card-body p-4 p-lg-5">
+                <div class="school-badge mb-4">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span>Learning Journey</span>
+                </div>
+                <h2 class="mb-4">Comprehensive Education</h2>
+                <p class="mb-4">
+                  We offer a complete educational pathway designed to develop
+                  well-rounded global citizens:
+                </p>
+
+                <div class="program-levels">
+                  <div class="program-item">
+                    <div class="program-icon">
+                      <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="program-content">
+                      <h4>Primary Education</h4>
+                      <p>
+                        Building strong foundations in core subjects with
+                        inquiry-based learning
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="program-item">
+                    <div class="program-icon">
+                      <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="program-content">
+                      <h4>Secondary Education</h4>
+                      <p>
+                        Developing critical thinking and subject specialization
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="program-item">
+                    <div class="program-icon">
+                      <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="program-content">
+                      <h4>Advanced Studies</h4>
+                      <p>Preparation for university and professional careers</p>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn-primary mt-4"
+                  >Learn About Our Curriculum
+                  <i class="fas fa-arrow-right ms-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- School Anthem Section -->
+        <div class="section-divider">
+          <h2>School Anthem</h2>
+        </div>
+
+        <div class="about-card anthem-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+              <div class="anthem-player-container p-4 p-lg-5">
+                <div class="school-badge mb-4">
+                  <i class="fas fa-headphones"></i>
+                  <span>Listen Now</span>
+                </div>
+                <h3 class="anthem-player-title mb-4">Experience Our Anthem</h3>
+                <div class="custom-audio-player">
+                  <div class="audio-info">
+                    <div class="audio-thumbnail">
+                      <i class="fas fa-music"></i>
+                    </div>
+                    <div class="audio-details">
+                      <div class="audio-title">
+                        Sample School Anthem
+                      </div>
+                      <div class="audio-composer">
+                        Composed by: School Choir
+                      </div>
+                    </div>
+                  </div>
+                  <audio id="anthemAudio">
+                    <source
+                      src="../assets/audio/anthem.mp3"
+                      type="audio/mpeg"
+                    />
+                    Your browser does not support the audio element.
+                  </audio>
+                  <div class="audio-controls">
+                    <button class="play-btn" id="playAnthem">
+                      <i class="fas fa-play"></i>
+                    </button>
+                    <div class="progress-container">
+                      <div class="progress-bar" id="progressBar"></div>
+                      <div class="time-display">
+                        <span id="currentTime">0:00</span> /
+                        <span id="duration">0:00</span>
+                      </div>
+                    </div>
+                    <button class="volume-btn" id="volumeBtn">
+                      <i class="fas fa-volume-up"></i>
+                    </button>
+                    <input
+                      type="range"
+                      class="volume-slider"
+                      id="volumeSlider"
+                      min="0"
+                      max="1"
+                      step="0.01"
+                      value="1"
+                    />
+                  </div>
+                </div>
+                <div class="download-anthem mt-4">
+                  <a
+                    href="../assets/audio/anthem.mp3"
+                    download
+                    class="btn btn-outline-primary"
+                  >
+                    <i class="fas fa-download me-2"></i> Download Anthem
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="card-body p-4 p-lg-5">
+                <div class="school-badge mb-4">
+                  <i class="fas fa-music"></i>
+                  <span>Our Anthem</span>
+                </div>
+                <h3 class="mb-4">Sample School Anthem</h3>
+                <div class="anthem-lyrics">
+                  <div class="lyrics-section">
+                    <div class="lyrics-header">
+                      <i class="fas fa-quote-left"></i>
+                      <span>Verse 1</span>
+                    </div>
+                    <p class="lyrics-text">
+                      Sample School Heights, our noble school,<br />
+                      Where knowledge shines and wisdom rules.<br />
+                      With hearts united, strong and true,<br />
+                      We strive for excellence in all we do.
+                    </p>
+                  </div>
+                  <div class="lyrics-section chorus">
+                    <div class="lyrics-header">
+                      <i class="fas fa-quote-left"></i>
+                      <span>Chorus</span>
+                    </div>
+                    <p class="lyrics-text">
+                      Lift your voices, sing with pride,<br />
+                      For SSA we stand beside.<br />
+                      Through the years our fame will grow,<br />
+                      As future leaders we will show.
+                    </p>
+                  </div>
+                  <div class="lyrics-section">
+                    <div class="lyrics-header">
+                      <i class="fas fa-quote-left"></i>
+                      <span>Verse 2</span>
+                    </div>
+                    <p class="lyrics-text">
+                      With discipline and courage bright,<br />
+                      We'll reach for knowledge, seek the light.<br />
+                      Our alma mater, strong and fair,<br />
+                      We pledge to serve with love and care.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Sample School®</h3>
+            <p>
+              We inspire our students to strive for academic excellence and be
+              unrelenting in their pursuit of greatness.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://web.facebook.com/people/sample-school/100057217218964/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a
+                href="https://www.instagram.com/sampleschool/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Links</h3>
+            <ul class="footer-links">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="./academics.html">Academics</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">About Us</h3>
+            <p>
+              SSA integrates theoretical and practical teaching methodologies in
+              the Ghanaian academic context with best teaching approaches from
+              the United Kingdom to ensure that our students develop a
+              competitive edge.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer-title">Contacts</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:admin@SSA.edu.gh">admin@SSA.edu.gh</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233506753235">+233 50 675 3235</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233543206025">+233 54 320 6025</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <a
+                  href="https://maps.app.goo.gl/7eamoqUVCuYpodAE6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  1 Sample School Lane, Accra
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Sample School. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

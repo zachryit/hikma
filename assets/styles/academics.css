@@ -1,0 +1,443 @@
+/* Academics Page Styles */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --dark-color: #333;
+  --light-color: #f8f9fa;
+}
+
+/* Academics Hero Section */
+.academics-hero {
+  padding: 40px 0;
+  background: linear-gradient(135deg, rgba(44, 62, 80, 0.95) 0%, rgba(52, 152, 219, 0.9) 100%);
+  color: white;
+}
+
+.academics-hero .hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.academics-hero .hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.academics-hero .hero-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.academics-hero .hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Breadcrumb Section */
+.breadcrumb-section {
+  padding: 15px 0;
+  background-color: #f8f9fa;
+}
+
+.breadcrumb-item a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-item a:hover {
+  color: var(--accent-color);
+}
+
+.breadcrumb-item.active {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* Section Header Styles */
+.section-header {
+  margin-bottom: 3rem;
+}
+
+.section-main-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 1rem 0;
+  position: relative;
+  display: inline-block;
+}
+
+.section-main-title span {
+  color: var(--accent-color);
+}
+
+.section-divider {
+  width: 80px;
+  height: 4px;
+  background-color: var(--accent-color);
+  margin: 1.5rem auto;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Programs Grid */
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.program-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.program-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background: var(--accent-color);
+  transition: height 0.3s ease;
+  z-index: -1;
+}
+
+.program-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.program-card:hover::before {
+  height: 100%;
+}
+
+.program-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--secondary-color);
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.program-content h3 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.program-content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.program-link {
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+
+.program-link i {
+  transition: transform 0.3s ease;
+}
+
+.program-link:hover {
+  color: var(--accent-color);
+}
+
+.program-link:hover i {
+  transform: translateX(5px);
+}
+
+/* Curriculum Approach Section */
+.curriculum-approach {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.approach-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.approach-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.approach-text h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.approach-text p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.approach-features {
+  margin-top: 2rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.feature-item i {
+  color: var(--accent-color);
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.feature-item span {
+  color: #555;
+  font-weight: 500;
+}
+
+/* Extracurricular Activities */
+/* Enhanced Extracurricular Activities Section */
+.extracurricular-activities {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.enhanced-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.enhanced-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.activity-image {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.activity-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.enhanced-card:hover .activity-image img {
+  transform: scale(1.1);
+}
+
+.activity-icon {
+  width: 70px;
+  height: 70px;
+  background: var(--secondary-color);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin: -35px auto 1.5rem;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+  border: 4px solid white;
+  transition: all 0.3s ease;
+}
+
+.enhanced-card:hover .activity-icon {
+  transform: scale(1.1);
+  background: var(--accent-color);
+}
+
+.activity-content {
+  padding: 0 2rem 2rem;
+  flex-grow: 1;
+}
+
+.activity-content h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.activity-content p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+
+/* Academic Calendar Section */
+.academic-calendar {
+  padding: 80px 0;
+  background: linear-gradient(135deg, rgba(44, 62, 80, 0.05) 0%, rgba(52, 152, 219, 0.05) 100%);
+}
+
+.calendar-text h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.calendar-text p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.calendar-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn-outline-primary {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1199.98px) {
+  .academics-hero .hero-content h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .academics-hero {
+    padding: 100px 0 40px;
+  }
+  
+  .academics-hero .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  
+  .section-main-title {
+    font-size: 2.2rem;
+  }
+  
+  .approach-text h2,
+  .calendar-text h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .academics-hero .row {
+    flex-direction: column-reverse;
+  }
+  
+  .academics-hero .hero-content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .section-main-title {
+    font-size: 2rem;
+  }
+  
+  .approach-text,
+  .calendar-text {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .approach-features {
+    justify-content: center;
+  }
+
+  .activity-image {
+    height: 180px;
+  }
+  
+  .activity-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin: -30px auto 1rem;
+  }
+  
+  .activity-content {
+    padding: 0 1.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .academics-hero .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .section-main-title {
+    font-size: 1.8rem;
+  }
+  
+  .programs-grid,
+  .activities-grid {
+    grid-template-columns: 1fr;
+  }
+}

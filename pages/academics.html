@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academics | Sample School</title>
+
+    <!-- Favicon Configuration -->
+    <link rel="icon" href="../assets/images/logo.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link rel="apple-touch-icon" href="../assets/images/logo.png" />
+    <link rel="icon" sizes="192x192" href="../assets/images/logo.png" />
+    <link rel="icon" sizes="512x512" href="../assets/images/logo.png" />
+    <link rel="mask-icon" href="../assets/images/logo.png" color="#2c3e50" />
+    <meta name="msapplication-TileImage" content="../assets/images/logo.png" />
+    <meta name="msapplication-TileColor" content="#2c3e50" />
+    <meta name="theme-color" content="#2c3e50" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <!-- Academics CSS -->
+    <link rel="stylesheet" href="../assets/styles/academics.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand-logo me-auto" href="../index.html">
+          <img
+            src="../assets/images/logo.png"
+            class="me-1"
+            alt="School Logo"
+            width="60"
+          />
+          <span>Sample School</span>
+        </a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li>
+                  <a class="dropdown-item" href="./about-bod.html">About SSA</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-bod.html"
+                    >Board of Directors</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-management.html"
+                    >Management Team</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-teaching-staff.html"
+                    >Teaching Staff</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./events.html">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Academics Hero Section -->
+    <section class="academics-hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1>Academic Excellence at Sample School Heights</h1>
+              <p>
+                Our rigorous curriculum is designed to inspire intellectual
+                curiosity, foster critical thinking, and prepare students for
+                success in higher education and beyond.
+              </p>
+              <a href="#programs" class="btn btn-primary"
+                >Explore Our Programs</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img
+                src="../assets/images/academics-hero.jpeg"
+                alt="Students in classroom"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Breadcrumb Navigation -->
+    <section class="breadcrumb-section">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Academics
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Academic Programs Section -->
+    <section class="academic-programs" id="programs">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h1 class="section-main-title">Our <span>Academic Programs</span></h1>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            We offer a comprehensive curriculum that combines Ghanaian
+            educational standards with international best practices
+          </p>
+        </div>
+
+        <div class="programs-grid">
+          <!-- Preschool Program -->
+          <div class="program-card">
+            <div class="program-icon">
+              <i class="fas fa-child"></i>
+            </div>
+            <div class="program-content">
+              <h3>Preschool</h3>
+              <p>
+                Our early childhood program focuses on developing foundational
+                skills through play-based learning and exploration.
+              </p>
+              <a href="#" class="program-link"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Primary School Program -->
+          <div class="program-card">
+            <div class="program-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <div class="program-content">
+              <h3>Primary School</h3>
+              <p>
+                A balanced curriculum that builds core competencies in literacy,
+                numeracy, science, and social studies.
+              </p>
+              <a href="#" class="program-link"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Junior High Program -->
+          <div class="program-card">
+            <div class="program-icon">
+              <i class="fas fa-atom"></i>
+            </div>
+            <div class="program-content">
+              <h3>Junior High School</h3>
+              <p>
+                Specialized subject teaching prepares students for the BECE
+                while developing critical thinking skills.
+              </p>
+              <a href="#" class="program-link"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Senior High Program -->
+          <div class="program-card">
+            <div class="program-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="program-content">
+              <h3>Senior High School</h3>
+              <p>
+                Comprehensive programs in Science, Business, Arts, and General
+                Arts with WASSCE preparation.
+              </p>
+              <a href="#" class="program-link"
+                >Learn More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum Approach Section -->
+    <section class="curriculum-approach">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h1 class="section-main-title">
+            Our <span>Curriculum Approach</span>
+          </h1>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="approach-content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="approach-image">
+                <img
+                  src="../assets/images/curriculum-approach.jpg"
+                  alt="Students learning"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="approach-text">
+                <h2>Blending Tradition with Innovation</h2>
+                <p>
+                  At Sample School, we integrate theoretical and
+                  practical teaching methodologies in the Ghanaian academic
+                  context with best teaching approaches from the United Kingdom
+                  to ensure that our students develop a competitive edge.
+                </p>
+
+                <div class="approach-features">
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Project-based learning</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Critical thinking development</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Technology integration</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Character education</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Extracurricular Activities Section -->
+    <section class="extracurricular-activities">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h1 class="section-main-title">
+            Extracurricular <span>Activities</span>
+          </h1>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            We believe in holistic education that develops students' talents and
+            interests beyond the classroom
+          </p>
+        </div>
+
+        <div class="row">
+          <!-- Row 1 -->
+          <div class="col-lg-6 mb-4">
+            <div class="activity-card enhanced-card">
+              <div class="activity-image">
+                <img
+                  src="../assets/images/robotics-club.jpg"
+                  alt="Robotics Club"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="activity-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <div class="activity-content">
+                <h3>Robotics Club</h3>
+                <p>
+                  Our Robotics club has a budding modern ICT laboratory with
+                  laptops, projectors, sound systems, robotics tools, and other
+                  essentials for effective learning.
+                </p>
+                <p>
+                  Robotics club is subdivided into coding and hardware SSAses to
+                  provide students with skills to develop and program their own
+                  robots.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mb-4">
+            <div class="activity-card enhanced-card">
+              <div class="activity-image">
+                <img
+                  src="../assets/images/arts-club.png"
+                  alt="Arts Club"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="activity-icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <div class="activity-content">
+                <h3>Arts Club</h3>
+                <p>
+                  Our Art club ignites creativity in learners, giving them
+                  confidence to display their talents. We provide a platform for
+                  free expression through art and crafts.
+                </p>
+                <p>
+                  Art opens hearts and minds to possibilities, fueling
+                  imagination. We create new things and experience art in
+                  different ways.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="col-lg-6 mb-4">
+            <div class="activity-card enhanced-card">
+              <div class="activity-image">
+                <img
+                  src="../assets/images/read2achieve.jpg"
+                  alt="Read2Achieve Program"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="activity-icon">
+                <i class="fas fa-book-reader"></i>
+              </div>
+              <div class="activity-content">
+                <h3>Read2Achieve</h3>
+                <p>
+                  We believe reading unlocks children's mastery of any subject.
+                  Our #Read2Achieve program instills a strong reading culture
+                  among learners and staff.
+                </p>
+                <p>
+                  Each learner is assigned a monthly storybook, supervised to
+                  read effectively and produce a review before selecting a new
+                  book.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mb-4">
+            <div class="activity-card enhanced-card">
+              <div class="activity-image">
+                <img
+                  src="../assets/images/sports.jpg"
+                  alt="Sports Program"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="activity-icon">
+                <i class="fas fa-running"></i>
+              </div>
+              <div class="activity-content">
+                <h3>Sports & Athletics</h3>
+                <p>
+                  Our sports program includes football, basketball, athletics,
+                  and other activities promoting teamwork, discipline, and
+                  healthy living.
+                </p>
+                <p>
+                  We participate in inter-school competitions with facilities to
+                  nurture athletic talents alongside academics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Calendar Section -->
+    <section class="academic-calendar">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h1 class="section-main-title">Academic <span>Resources</span></h1>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="calendar-content">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="calendar-text">
+                <h2>SSA Term 1 Calendar</h2>
+                <p>
+                  Stay informed about important academic dates, holidays, and
+                  school events throughout the term.
+                </p>
+                <a
+                  href="https://www.SSA.edu.gh/files/uploads/upload-1724487474742-685778046.pdf"
+                  target="_blank"
+                  class="btn btn-outline-primary"
+                  >Download Calendar</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="calendar-image">
+                <img
+                  src="../assets/images/academic-calendar.jpg"
+                  alt="Academic calendar"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Sample School®</h3>
+            <p>
+              We inspire our students to strive for academic excellence and be
+              unrelenting in their pursuit of greatness.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://web.facebook.com/people/sample-school/100057217218964/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a
+                href="https://www.instagram.com/sampleschool/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Links</h3>
+            <ul class="footer-links">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./about-SSA.html">About Us</a></li>
+              <li><a href="#">Academics</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">About Us</h3>
+            <p>
+              SSA integrates theoretical and practical teaching methodologies in
+              the Ghanaian academic context with best teaching approaches from
+              the United Kingdom to ensure that our students develop a
+              competitive edge.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer-title">Contacts</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:admin@SSA.edu.gh">admin@SSA.edu.gh</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233506753235">+233 50 675 3235</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233543206025">+233 54 320 6025</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <a
+                  href="https://maps.app.goo.gl/7eamoqUVCuYpodAE6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  1 Sample School Lane, Accra
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Sample School. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="../assets/js/main.js"></script>
+    <!-- Academics JS -->
+    <script src="../assets/js/academics.js"></script>
+  </body>
+</html>

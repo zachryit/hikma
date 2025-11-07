@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events | Sample School</title>
+
+    <!-- Favicon Configuration for All Devices -->
+    <!-- Standard favicon (all browsers) -->
+    <link rel="icon" href="../assets/images/logo.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="../assets/images/logo.png"
+      type="image/png"
+      sizes="32x32"
+    />
+
+    <!-- Apple Touch Icon (iOS devices) -->
+    <link rel="apple-touch-icon" href="../assets/images/logo.png" />
+
+    <!-- Android/Chrome -->
+    <link rel="icon" sizes="192x192" href="../assets/images/logo.png" />
+    <link rel="icon" sizes="512x512" href="../assets/images/logo.png" />
+
+    <!-- Safari Pinned Tab -->
+    <link rel="mask-icon" href="../assets/images/logo.png" color="#2c3e50" />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="../assets/images/logo.png" />
+    <meta name="msapplication-TileColor" content="#2c3e50" />
+
+    <!-- Cache Buster (change v=1 when updating favicon) -->
+    <meta name="theme-color" content="#2c3e50" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <!-- Events CSS -->
+    <link rel="stylesheet" href="../assets/styles/events.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand-logo me-auto" href="#">
+          <img
+            src="../assets/images/logo.png"
+            class="me-1"
+            alt="School Logo"
+            width="60"
+          />
+          <span>Sample School</span>
+        </a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li>
+                  <a class="dropdown-item" href="./about-SSA.html">About SSA</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-bod.html"
+                    >Board of Directors</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-management.html"
+                    >Management Team</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./about-teaching-staff.html"
+                    >Teaching Staff</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item active" href="#">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./academics.html">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modern Hero Section -->
+    <section class="events-hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="../index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Events
+                </li>
+              </ol>
+            </nav>
+            <h1>Experience <span>SSA</span> Events</h1>
+            <p class="lead">
+              Discover our vibrant school community through upcoming events,
+              important dates, and special occasions at Sample School Heights
+              Academy.
+            </p>
+            <div class="hero-cta">
+              <a href="#upcoming-events" class="btn btn-primary">View Events</a>
+              <a href="./academics.html" class="btn btn-outline">Academics</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <img
+                src="../assets/images/events.jpeg"
+                alt="School Events"
+                class="img-fluid"
+              />
+              <div class="shape-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section" id="upcoming-events">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">What's Happening</span>
+          <h2 class="section-title">Upcoming <span>Events</span></h2>
+          <div class="section-description">
+            Join us for these exciting upcoming events at Sample School Heights
+            Academy
+          </div>
+        </div>
+
+        <div class="events-grid">
+          <!-- Event 1 -->
+          <div class="event-card">
+            <div class="event-badge">
+              <span class="event-day">15</span>
+              <span class="event-month">Jun</span>
+            </div>
+            <div class="event-image">
+              <img
+                src="../assets/images/robotics-club.jpg"
+                alt="Annual Science Fair"
+              />
+              <div class="event-overlay"></div>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <span><i class="fas fa-clock"></i> 9:00 AM - 3:00 PM</span>
+                <span><i class="fas fa-map-marker-alt"></i> Auditorium</span>
+              </div>
+              <h3>Annual Science Fair</h3>
+              <p>
+                Our students showcase their innovative science projects and
+                experiments. Open to parents and visitors.
+              </p>
+            </div>
+          </div>
+
+          <!-- Event 2 -->
+          <div class="event-card">
+            <div class="event-badge">
+              <span class="event-day">22</span>
+              <span class="event-month">Jun</span>
+            </div>
+            <div class="event-image">
+              <img
+                src="../assets/images/graduation-2024.jpg"
+                alt="Graduation Ceremony"
+              />
+              <div class="event-overlay"></div>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <span><i class="fas fa-clock"></i> 10:00 AM - 12:00 PM</span>
+                <span
+                  ><i class="fas fa-map-marker-alt"></i> Football Field</span
+                >
+              </div>
+              <h3>Graduation Ceremony</h3>
+              <p>
+                Celebrating the achievements of our graduating class of 2024.
+                Formal invitation required for attendance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Event 3 -->
+          <div class="event-card">
+            <div class="event-badge">
+              <span class="event-day">05</span>
+              <span class="event-month">Jul</span>
+            </div>
+            <div class="event-image">
+              <img
+                src="../assets/images/read2achieve2.jpg"
+                alt="Parents-Teachers Conference"
+              />
+              <div class="event-overlay"></div>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <span><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</span>
+                <span><i class="fas fa-map-marker-alt"></i> Classrooms</span>
+              </div>
+              <h3>Parents-Teachers Conference</h3>
+              <p>
+                Opportunity for parents to meet with teachers and discuss
+                student progress. Please book your time slot.
+              </p>
+            </div>
+          </div>
+
+          <!-- Event 4 -->
+          <div class="event-card">
+            <div class="event-badge">
+              <span class="event-day">15</span>
+              <span class="event-month">Aug</span>
+            </div>
+            <div class="event-image">
+              <img
+                src="../assets/images/sports.jpg"
+                alt="Annual Sports Day"
+              />
+              <div class="event-overlay"></div>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <span><i class="fas fa-clock"></i> 8:00 AM - 4:00 PM</span>
+                <span><i class="fas fa-map-marker-alt"></i> Sports Field</span>
+              </div>
+              <h3>Annual Sports Day</h3>
+              <p>
+                A day of athletic competitions, team spirit, and healthy
+                competition between houses. Spectators welcome!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Events Section -->
+    <section class="past-events-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Our Memories</span>
+          <h2 class="section-title">Past <span>Events</span></h2>
+          <div class="section-description">
+            Relive our most memorable events from previous years
+          </div>
+        </div>
+
+        <div class="past-events-grid">
+          <!-- Past Event 1 -->
+          <a href="../pages/blog.html" class="past-event-card">
+            <div class="past-event-image">
+              <img
+                src="../assets/images/traditional-day-2022.jpg"
+                alt="Traditional Day 2022"
+              />
+              <div class="past-event-overlay">
+                <span class="event-year">2022</span>
+                <h3>Traditional Day</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- Past Event 2 -->
+          <a href="../pages/blog.html" class="past-event-card">
+            <div class="past-event-image">
+              <img src="../assets/images/au-day-2022.jpeg" alt="AU Day 2022" />
+              <div class="past-event-overlay">
+                <span class="event-year">2022</span>
+                <h3>AU Day</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- Past Event 3 -->
+          <a href="../pages/blog.html" class="past-event-card">
+            <div class="past-event-image">
+              <img
+                src="../assets/images/read2achieve2.jpg"
+                alt="Read2Achieve Launch"
+              />
+              <div class="past-event-overlay">
+                <span class="event-year">2021</span>
+                <h3>Read2Achieve</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="../pages/blog.html" class="btn btn-outline">View All Past Events</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-card">
+          <div class="newsletter-content">
+            <h3>Stay Updated</h3>
+            <p>
+              Subscribe to our newsletter to receive updates about upcoming
+              events and school activities.
+            </p>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Sample School®</h3>
+            <p>
+              We inspire our students to strive for academic excellence and be
+              unrelenting in their pursuit of greatness.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://web.facebook.com/people/sample-school/100057217218964/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a
+                href="https://www.instagram.com/sampleschool/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">Links</h3>
+            <ul class="footer-links">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./about-SSA.html">About Us</a></li>
+              <li><a href="./academics.html">Academics</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h3 class="footer-title">About Us</h3>
+            <p>
+              SSA integrates theoretical and practical teaching methodologies in
+              the Ghanaian academic context with best teaching approaches from
+              the United Kingdom to ensure that our students develop a
+              competitive edge.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="footer-title">Contacts</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:admin@SSA.edu.gh">admin@SSA.edu.gh</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233506753235">+233 50 675 3235</a>
+              </li>
+              <li>
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+233543206025">+233 54 320 6025</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <a
+                  href="https://maps.app.goo.gl/7eamoqUVCuYpodAE6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  1 Sample School Lane, Accra
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Sample School. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="../assets/js/main.js"></script>
+    <!-- Events JS -->
+    <script src="../assets/js/events.js"></script>
+  </body>
+</html>
