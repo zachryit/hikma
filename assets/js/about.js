@@ -1,4 +1,4 @@
-// About SSA Stats Counter Animation
+// About AHIMS Stats Counter Animation
 function animateCounters() {
   const counters = document.querySelectorAll('.stat-number');
   const speed = 200; // Animation duration in ms
@@ -18,7 +18,7 @@ function animateCounters() {
 }
 
 // Run counters when section is in view
-const aboutSection = document.querySelector('.about-SSA-section');
+const aboutSection = document.querySelector('.about-ahims-section');
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
