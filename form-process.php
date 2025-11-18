@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Prepare email content
     $email_subject = "New Message from SSA Website: $subject";
-    $email_body = "You have received a new message from the Sample School website.\n\n";
+    $email_body = "You have received a new message from the Al-Hikmah Islamic Montessori School website.\n\n";
     $email_body .= "Name: $name\n";
     $email_body .= "Email: $email\n";
     $email_body .= "Phone: " . ($phone ? $phone : "Not provided") . "\n";
