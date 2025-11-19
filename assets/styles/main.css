@@ -40,14 +40,36 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .navbar-brand-logo span {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .navbar-brand-logo img {
     width: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-brand-logo span {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  .navbar-brand-logo img {
+    width: 45px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-brand-logo span {
+    font-weight: 600;
+    font-size: 0.75rem;
+  }
+
+  .navbar-brand-logo img {
+    width: 40px;
   }
 }
 
@@ -113,7 +135,7 @@ body {
 
 .navbar .dropdown-item {
   color: var(--dark-color);
-  padding: 8px 20px;
+  padding: 8px 60px;
   font-weight: 500;
   transition: all 0.3s ease;
   position: relative;
@@ -125,6 +147,7 @@ body {
 .navbar .dropdown-item.active {
   color: var(--accent-color) !important; /* purple text */
   background-color: rgba(183, 23, 219, 0.1); /* light purple background */
+  padding: 8px 60px;
 }
 
 /* Dropdown arrow animation */
@@ -308,7 +331,9 @@ body {
   .nav-link:hover,
   .nav-link:focus,
   .nav-link.active {
-    color: var(--accent-color) !important;
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 8px;
   }
 
   .nav-link.active:after {
@@ -364,8 +389,8 @@ body {
   .navbar-collapse .dropdown-item:focus,
   .navbar-collapse .dropdown-item.active {
     padding-left: 35px !important;
-    color: var(--accent-color) !important;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.15);
   }
 
   .navbar-collapse .dropdown-toggle::after {
@@ -409,6 +434,7 @@ body {
 
 .section-light {
   background-color: #f8f9fa;
+  padding: 60px 0;
 }
 
 /* Founder Section */
