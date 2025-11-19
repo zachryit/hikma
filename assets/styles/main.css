@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #2c3e50;
-  --secondary-color: #3498db;
-  --accent-color: #e74c3c;
+  --primary-color: #B717DB;
+  --secondary-color: #9B0FC1;
+  --accent-color: #B717DB;
   --light-color: #ecf0f1;
   --dark-color: #2c3e50;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(44, 62, 80, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(183, 23, 219, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar.scrolled {
@@ -34,7 +34,7 @@ body {
 .navbar-brand-logo {
   font-weight: 700;
   font-size: 1.5rem;
-  color: rgba(44, 62, 80, 0.8);
+  color: rgba(183, 23, 219, 0.9);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -58,7 +58,7 @@ body {
 }
 
 .navbar-brand-logo:hover {
-  color: rgba(44, 62, 80, 0.8) !important;
+  color: rgba(183, 23, 219, 0.9) !important;
 }
 
 .navbar-brand-logo i {
@@ -81,7 +81,7 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
-  color: var(--accent-color) !important; /* red */
+  color: var(--accent-color) !important; /* purple */
   background-color: transparent;
 }
 
@@ -93,8 +93,8 @@ body {
 .navbar-toggler {
   border: none;
   padding: 0.5rem;
-  color: var(--dark-color);
-  border-color: rgba(44, 62, 80, 0.5);
+  color: var(--accent-color);
+  border-color: rgba(183, 23, 219, 0.5);
 }
 
 .navbar-toggler:focus {
@@ -123,8 +123,8 @@ body {
 .navbar .dropdown-item:hover,
 .navbar .dropdown-item:focus,
 .navbar .dropdown-item.active {
-  color: var(--accent-color) !important; /* red text */
-  background-color: rgba(231, 76, 60, 0.1); /* light red background */
+  color: var(--accent-color) !important; /* purple text */
+  background-color: rgba(183, 23, 219, 0.1); /* light purple background */
 }
 
 /* Dropdown arrow animation */
@@ -174,7 +174,7 @@ body {
 
 .slide-content {
   max-width: 800px;
-  background-color: rgba(44, 62, 80, 0.8);
+  background-color: rgba(183, 23, 219, 0.85);
   color: white;
   padding: 40px;
   border-radius: 10px;
@@ -210,9 +210,9 @@ body {
 }
 
 .btn-hero:hover {
-  background-color: #c0392b;
+  background-color: #9B0FC1;
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(183, 23, 219, 0.4);
 }
 
 /* Slider Controls*/
