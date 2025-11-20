@@ -467,7 +467,7 @@ body {
 .founder-signature {
   font-family: "Brush Script MT", cursive;
   font-size: 2rem;
-  color: var(--accent-color);
+  color: white;
   margin-top: 20px;
 }
 
