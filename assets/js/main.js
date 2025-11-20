@@ -151,4 +151,59 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("errorModal")
     );
   }
+
+  // ===============================
+  // Back to Top Button
+  // ===============================
+  const backToTopButton = document.getElementById("backToTop");
+  
+  if (backToTopButton) {
+    // Show/hide button based on scroll position
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.add("show");
+      } else {
+        backToTopButton.classList.remove("show");
+      }
+    });
+
+    // Scroll to top when button is clicked
+    backToTopButton.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  }
+
+  // ===============================
+  // Scroll reveal animations
+  // ===============================
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observerCallback = (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+  // Observe elements that should animate on scroll
+  const animateElements = document.querySelectorAll(
+    '.vision-card, .event-card, .blog-card, .gallery-item'
+  );
+
+  animateElements.forEach((el, index) => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    el.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+    observer.observe(el);
+  });
 });
