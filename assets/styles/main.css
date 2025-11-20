@@ -42,7 +42,7 @@ body {
 
 @media (max-width: 768px) {
   .navbar-brand-logo span {
-    font-weight: 600;
+    font-weight: bolder;
     font-size: 1.1rem;
   }
 
@@ -53,7 +53,7 @@ body {
 
 @media (max-width: 500px) {
   .navbar-brand-logo span {
-    font-weight: 600;
+    font-weight: bolder;
     font-size: 0.85rem;
   }
 
@@ -64,7 +64,7 @@ body {
 
 @media (max-width: 380px) {
   .navbar-brand-logo span {
-    font-weight: 600;
+    font-weight: bolder;
     font-size: 0.75rem;
   }
 
@@ -197,7 +197,7 @@ body {
 
 .slide-content {
   max-width: 800px;
-  background-color: rgba(183, 23, 219, 0.85);
+  background-color: rgba(183, 23, 219, 0.60);
   color: white;
   padding: 40px;
   border-radius: 10px;
